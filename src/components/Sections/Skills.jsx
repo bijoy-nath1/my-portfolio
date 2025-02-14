@@ -18,7 +18,7 @@ export default function SkillsShowcase() {
   return (
     <motion.div
       id="Skills"
-      className="p-6 sm:p-8 md:p-10 lg:p-12 text-white rounded-2xl shadow-2xl max-w-6xl mx-auto min-h-[50vh] flex flex-col justify-center"
+      className="p-6 sm:p-8 md:p-10 lg:p-12 text-white rounded-2xl shadow-2xl  mx-auto min-h-[50vh] flex flex-col justify-center"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
