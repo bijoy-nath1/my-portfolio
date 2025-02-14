@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Typewriter from "../ComponentUtils/Typewriter";
 
 const Experience = () => {
   return (
@@ -11,7 +10,9 @@ const Experience = () => {
       id="Experience"
     >
       <div className="flex justify-start">
-        <Typewriter text="  experience" />
+        <h1 className="font-mono  text-black  border-1 border-amber-500 px-4 py-1 rounded-xl">
+          Experience
+        </h1>
       </div>
 
       <motion.p

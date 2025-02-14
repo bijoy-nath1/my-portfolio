@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Typewriter from "../ComponentUtils/Typewriter";
 
 const skills = [
   { name: "HTML", level: 95, color: "bg-red-500" },
@@ -19,7 +18,7 @@ export default function SkillsShowcase() {
   return (
     <motion.div
       id="Skills"
-      className="p-8 text-white rounded-2xl shadow-2xl max-w-full min-h-[50vh] flex flex-col justify-center mx-6"
+      className="p-6 sm:p-8 md:p-10 lg:p-12 text-white rounded-2xl shadow-2xl max-w-6xl mx-auto min-h-[50vh] flex flex-col justify-center"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
@@ -31,12 +30,14 @@ export default function SkillsShowcase() {
         transition={{ delay: 0.2, duration: 0.8 }}
       >
         <div className="flex justify-start">
-          <Typewriter text="  Skills" />
+          <h1 className="font-mono  text-black  border-1 border-amber-500 px-4 py-1 rounded-xl">
+            skills
+          </h1>
         </div>
       </motion.div>
 
       <motion.div
-        className="grid grid-cols-2 gap-6 items-center justify-center"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-center justify-center"
         initial="hidden"
         animate="visible"
         variants={{

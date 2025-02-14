@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import GithubLogo from "../../assets/GitHub_logo.png";
 import vercelLogo from "../../assets/vercel.png";
 import { freelanceWorks } from "../ComponentUtils/projectDetail";
-import Typewriter from "../ComponentUtils/Typewriter";
 
 function Freelance() {
   return (
@@ -35,7 +34,9 @@ function Freelance() {
             }}
           >
             <div className="flex justify-start">
-              <Typewriter text="  freelance work" />
+              <h1 className="font-mono  text-black  border-1 border-amber-500 px-4 py-1 rounded-xl">
+                Freelance work
+              </h1>
             </div>
             <motion.div
               className="w-full h-40 flex justify-center"
