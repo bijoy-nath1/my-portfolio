@@ -62,9 +62,7 @@ function Navbar() {
           <div className="h-12 w-12 rounded-full border-violet-400 border-2">
             <img src={developerImg} alt="Developer" className="w-full h-full" />
           </div>
-          <h1 className="text-violet-900 font-semibold text-xl">
-            Bijay&apos;s Portfolio
-          </h1>
+          <h1 className="text-violet-900  text-xl">Bijay</h1>
         </div>
 
         {/* Desktop Nav */}
