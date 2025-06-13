@@ -24,7 +24,7 @@ export default function ContactFooter() {
         >
           <h2 className="text-3xl font-bold">Let's Connect</h2>
           <p className="text-gray-400 mt-2 text-lg">
-            Feel free to reach out for collaborations or inquiries.
+            Heres my contact information 
           </p>
 
           <div className="mt-6 space-y-3">

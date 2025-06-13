@@ -1,16 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const skills = [
-  { name: "HTML", level: 95, color: "bg-red-500" },
-  { name: "CSS", level: 90, color: "bg-blue-500" },
-  { name: "JavaScript", level: 85, color: "bg-yellow-500" },
-  { name: "React", level: 80, color: "bg-cyan-500" },
-  { name: "Tailwind CSS", level: 85, color: "bg-indigo-500" },
-  { name: "Next.js", level: 75, color: "bg-purple-700" },
-  { name: "TypeScript", level: 70, color: "bg-blue-600" },
-  { name: "GSAP", level: 65, color: "bg-green-500" },
-];
+import {skills} from "../ComponentUtils/projectDetail";
 
 export default function SkillsShowcase() {
   const [hoveredSkill, setHoveredSkill] = useState(null);

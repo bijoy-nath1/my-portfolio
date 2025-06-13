@@ -8,11 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-    
-
   },
- 
   "dependencies": {
+    "@copilotkit/react-core": "^1.8.14",
+    "@copilotkit/react-ui": "^1.8.14",
     "@tailwindcss/vite": "^4.0.6",
     "framer-motion": "^12.4.2",
     "motion": "^12.4.2",
