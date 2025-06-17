@@ -1,5 +1,5 @@
 import developerImg from "../../assets/developerImg.png";
-// import VideoBackground from "./introVideo";
+import Typewriter from 'typewriter-effect';
 
 function About() {
   return (
@@ -11,6 +11,14 @@ function About() {
             Hye, I am <span className="text-purple-500">Bijay</span> and <br />
             I am a Frontend <br /> Developer
           </h1>
+          <Typewriter
+  options={{
+    strings: ['If you want my resume ', 'You can ask my', '<span style="color:#800080">Assistant Herry.</span>'],
+    autoStart: true,
+    loop: true,
+  }}
+  className='m-2'
+/>
         </div>
 
         {/* Image Section */}
