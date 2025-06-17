@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router";
 import Home from "./components/pages/Home";
 import { CopilotPopup } from "@copilotkit/react-ui";
 import {projectDetails,freelanceWorks,skills,contactWay} from './components/ComponentUtils/projectDetail'
-const resume = './resume.pdf'
+const resume = '/resume.pdf'
 
 function App() {
 useCopilotReadable({
